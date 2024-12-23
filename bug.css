@@ -1,0 +1,9 @@
+The following CSS code snippet exhibits an uncommon error where the expected behavior of applying a background image to a div element doesn't occur.  The image path appears correct, and the CSS selector targets the div properly. However, the background-image property remains ineffective. 
+
+```css
+div#myDiv {
+  width: 200px;
+  height: 200px;
+  background-image: url('./images/background.jpg');
+}
+```
